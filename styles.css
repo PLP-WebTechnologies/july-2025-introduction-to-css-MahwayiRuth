@@ -1,0 +1,139 @@
+/* ============================
+   General Page Styles
+============================ */
+body {
+  font-family: 'Georgia', serif;
+  margin: 0;
+  background-color: #fff8f0;
+  color: #333;
+}
+
+h1, h2, h3 {
+  margin: 0 0 10px 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* ============================
+   Header
+============================ */
+.header {
+  background-color: #ff6f61;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1.3em;
+}
+
+/* ============================
+   Cards / Sections
+============================ */
+.card {
+  background-color: #fff;
+  border: 2px solid #ff9f80;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.about, .write-publish, .box-demo {
+  margin: 40px auto;
+}
+
+.story-card {
+  text-align: center;
+  flex: 1 1 250px;
+  max-width: 300px;
+}
+
+.story-card button {
+  margin-top: 10px;
+}
+
+/* ============================
+   Box Model Demo
+============================ */
+.box-demo {
+  background-color: #fffbcc; 
+  padding: 25px;
+  border: 5px solid #ff9900;
+  margin: 40px auto;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.highlight-content { 
+  background-color: #ffe0b2;
+  padding: 2px 4px; 
+  border-radius: 3px;
+  border: 1px dashed #999;
+}
+
+.highlight-padding { 
+  background-color: #c8e6c9;
+  padding: 2px 4px; 
+  border-radius: 3px;
+  border: 1px dashed #999;
+}
+
+.highlight-border  { 
+  background-color: #ffccbc;
+  padding: 2px 4px; 
+  border-radius: 3px;
+  border: 1px dashed #999;
+}
+
+.highlight-margin  { 
+  background-color: #bbdefb;
+  padding: 2px 4px; 
+  border-radius: 3px;
+  border: 1px dashed #999;
+}
+
+/* ============================
+   Buttons
+============================ */
+.btn {
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  margin-top: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e85c50;
+}
+
+/* ============================
+   Footer
+============================ */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.95em;
+}
